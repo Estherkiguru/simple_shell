@@ -8,7 +8,7 @@
 int main (int argc, char * arg [])
 {
 	char *user_input = NULL;
-	while
+	while (1)
 	{
 		prompt_display();
 		if (getline (&user_input,&use_input_size,stdin)==-1)
