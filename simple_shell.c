@@ -3,15 +3,18 @@
 
 int main(void)
 {
-	while(true)
-	{ 
+	char *user_input = NULL;
+
+	while (true)
+	{
 		prompt_display();
+		custom_display(user_input);
+		command_exec(user_input);
+		handle_input();
 
-
-	break;
 	}
 
-	return 0;
+	return (0);
 }
 
 
@@ -29,4 +32,3 @@ int main(void)
 
 
 
-}

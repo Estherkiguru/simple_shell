@@ -6,5 +6,5 @@
  */
 void prompt_display(void)
 {
-	custom_display ("$");
+	custom_display("$");
 }
